@@ -1,3 +1,21 @@
+Bài tập Kế thừa. 
+Xây dựng lớp Account gồm 2 thuộc tỉnh Username và Password, các hàm tạo, hàm hủy, get, set. 
+Xây dựng lớp Date bao gồm 3 thuộc tỉnh là Day, Month, Year, các hàm tạo, hàm hủy, get, set. 
+Xây dựng lớp Person gồm 3 thuộc tỉnh: Name, Age, Address, DateOfBirth có kiểu là Date. 
+a. Lớp Student kế thừa lớp Person và có thêm các thuộc tính ID, Gpa, Email, Email Password, Class, Acc có kiểu là Account. 
+Yêu cầu: Tiến hành xây dựng menu lựa chọn cho phép nhập thông tin của Student bao gồm các thông tin Name, Class, Address, ID, Gpa, DateOfBirth. Sau khi có đầy đủ thông tin Student tiến hành cấp mới Email sinh viên và mật khẩu truy cập, mail của Student được cung cấp theo mẫu sau 
+Ví dụ: Name: Nguyen Quang Huy, ID:B19DVT305 → Email huynq@ptit.edu.vn, EmailPassword: nguyenquanghuyb19devt305@. 
+Account truy cập trang quản lý đào tạo của Student được cấp theo mẫu sau 
+Ví dụ: Name: Nguyen Quang Huy, DateOfBirth: 15 10 2001 Username: NGUYENQUANGHUY, Password: 15102001@. 
+Hiển thị đầy đủ thông tin sinh viên có trong danh sách vừa nhập, bao gồm cả tài khoản truy cập trang quản lý đào tạo và Email sinh viên.
+Ví dụ về việc nhập thông tin và hiển thị: Nhập thông tin : 
+ID: B19DCVT305 
+Name: Nguyen Quang Huy 
+Class: B19VT03 
+Address: Kien Xuong, Thai Binh 
+Gpa: 2.85 
+Date Of Birth: 15 10 2001
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
