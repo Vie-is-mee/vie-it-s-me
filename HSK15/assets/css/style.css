@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
+/*SECTION 1*/
+.sec1 {
+    padding: 0 1rem;
+    min-height: 160px;
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.container1 {
+    height: 100%;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo-frame1 {
+    display: flex;
+    align-items: center;
+}
+
+.image1 {
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text1 {
+    font-size: 25px;
+    color: rgb(0, 122, 128);
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.setting {
+    display: flex;
+    align-items: center;
+}
+
+.Setting {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.setting {
+    margin-left: 0;
+}
+
+.Setting:hover {
+    background: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.Setting a {
+    font-size: 30px;
+    color: black;
+}
+
+.web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web div a {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    color: rgb(0, 0, 0) !important;
+    background: white;
+    margin: 0px 0.3rem;
+    border-radius: 10px;
+}
+
+/*SECTION 1*/
+
+
+
+
+
+/*SECTION 2*/
+.sec2 {
+    background-image: url(https://scontent.fsgn7-2.fna.fbcdn.net/v/t39.30808-6/472902110_608344014941787_3431634695493882144_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=qw1p5qFDrtQQ7kNvwFD1Mv6&_nc_oc=AdlLx3ZKfsbLm8gdTkUQP1FeVRcJwL4wQG__2TBfjcnHo_vUm9RX0vzHj9d32HIaKGk&_nc_zt=23&_nc_ht=scontent.fsgn7-2.fna&_nc_gid=MadoEqzhtHuMaLGODCxERg&oh=00_AfYKT6x7_CPgbrtNQB6BtumjyxsmiXrj5iu8HlT37-LG0g&oe=68BF078C);
+    background-size: 100%;
+    height: 1300px;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 400px 200px;
+    margin-bottom: 200px;
+}
+
+.container2 {
+    height: 60%;
+    width: auto;
+}
+
+
+.big-title1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.small-title1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.description1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 100px
+}
+
+.button1 {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.but1, .but2 {
+    height: 100px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.but1 {
+    background: #F7D9C4;
+}
+
+.but2 {
+    border: 1px solid gray;
+    background: transparent;
+}
+
+.button1 .but1 {
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+.button1 .but1:hover {
+    color: black;
+    background: white;
+}
+
+.button1 .but2 {
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.button1 .but2:hover {
+    border: 1px solid gray;
+    color: white;
+    background: #F7D9C4;
+}
+/*Section 2*/
+
+
+
+
+
+
+/* ADD SECTION */
+.sec-add {
+    margin-bottom: 200px;
+    background: #EFEFEF;
+    height: 900px;
+    padding: 40px 0;
+}
+
+.inner-head-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inner-head-title span {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.inner-head {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.inner-head p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Tri-An {
+    height: auto;
+    width: 140%;
+}
+
+.desc-title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.desc-body1 {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.desc-body2 {
+    font-size: 21px;
+}
+/* ADD SECTION */
+
+
+
+
+
+
+/*Section 3*/
+.sec3 {
+    margin-bottom: 150px;
+}
+
+.enu {
+    width: 42%;
+    background: #CDC6EF;
+    border-radius: 16px;
+}
+
+.enu h2 {
+    font-size: 50px;
+    color: #2C1D7E;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #EFEFEF;
+    padding: 100px 0;
+}
+
+
+.container3 div {
+    height: 800px;
+    width: calc(20% - 32px);
+    border-radius: 20px;
+    border: 2px solid black;
+    background: #C0C1C0;
+    margin-bottom: 80px;
+    
+}
+
+.container3 div img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+.container3 div span {
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 3px solid black;
+    background: #F5E47E;
+    color: #ED7653;
+    position: relative;
+    top: -20px;
+}
+
+.container3 div p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #D80A5F;
+}
+
+
+
+
+
+
+/* Section 4 */
+.sec4 {
+    height: 800px;
+    background: #EFEFEF;
+    padding: 150px 200px;
+    margin-bottom: 150px;
+}
+
+.container4 {
+    background: white;
+    height: 100%;
+    border-radius: 24px;
+    padding: 100px 150px;
+}
+
+.container4 .inner-main {
+    display: flex;
+    align-items: center;
+}
+
+.container4 .inner-main .part1 {
+    width: calc(100% - 58.333%);
+}
+
+.container4 .inner-main .part1 span {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.container4 .inner-main .part2 {
+    width: 58.333%;
+}
+
+.container4 .inner-main .part2 .collapseGroup {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.container4 .inner-main .part2 .collapseGroup p {
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #DE5614;
+}
+
+.container4 .inner-main .part2 .collapseGroup p button {
+    height: 20%;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    color: #EFEFEF;
+    font-size: 30px;
+}
+
+.container4 .inner-main .part2 .collapseGroup div {
+    background: #EFEFEF;
+    border-radius: 14px;
+}
+
+.container4 .inner-main .part2 .collapseGroup div div {
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Section 4 */
